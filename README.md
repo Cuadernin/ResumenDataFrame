@@ -1,6 +1,6 @@
 # GUI for dataframe resume
-<img align="left" src="https://github.com/Cuadernin/ResumenDataFrame/blob/master/images/imagen1.jpg" height="430" width="700"> 
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<img align="left" src="https://github.com/Cuadernin/ResumenDataFrame/blob/master/images/imagen1.jpg" height="540" width="760"> 
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 GUI designed in Python with PyQt5 that brings together different tools used in data analysis.
 <br/>
 It only allows .csv files but you can modify the code to read other files. 
