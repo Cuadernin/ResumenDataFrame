@@ -39,7 +39,7 @@ def distribucion(data,ele):
 
 def distribucion_fitter(data):
     """
-    Esta libreria ajusta los datos a cada una de las distribuciones
+    Esta libreria funciona para determinar la distribucion de grupo de datos. Ajusta los datos a cada una de las distribuciones y realiza las prueba pertinentes
     """
     distr=["norm", "exponweib", "weibull_max", "weibull_min", "pareto", "uniform","t","expon",
     "lognorm","beta","alpha","cauchy","f","loguniform","chi2","laplace","gamma"]
