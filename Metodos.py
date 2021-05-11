@@ -6,7 +6,7 @@ from LecturaTablas import lectura
 from Graficos import corrgraf,numericagraf,cualitativagraf,correlacionesgraf,distr
 from DistribucionData import distribucion,distribucion_fitter
 from LinearRegression import regresion
-from PrediccionesConMetodos import ridge,knn,random_forest,stacking
+from PrediccionesConMetodos import ridge,knn,random_forest
 import matplotlib.pyplot as plt
 import pandas as pd
 import webbrowser
