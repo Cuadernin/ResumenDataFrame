@@ -31,4 +31,6 @@ If you choose a machine learning model, the output will be an excel file with th
 
 The GUI is in **Spanish** and some codes have comments for your better understanding.
 
+**If you choose more than one action, the application will probably freeze for a few seconds until all operations are finished. This is normal because after a large number of actions the QT application tends to freeze and needs to be optimized.**
+
 **By Cuadernin.**
