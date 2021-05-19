@@ -18,9 +18,9 @@ The GUI is divided into two parts.
 
 ## Methods 📌
 In this case, three methods of machine learning are used:
-* Random Forest ----->  For more info read about this method check [Random Forest](https://builtin.com/data-science/random-forest-algorithm)
-* Ridge y Lasso ----->  For more info read about this method check *[Ridge](https://www.analyticsvidhya.com/blog/2016/01/ridge-lasso-regression-python-complete-tutorial/)
-* kNN ----->  For more info read about this method check *[kNN](https://realpython.com/knn-python/)
+* Random Forest ----->  For more info about this method check [Random Forest](https://builtin.com/data-science/random-forest-algorithm)
+* Ridge y Lasso ----->  For more info about this method check *[Ridge](https://www.analyticsvidhya.com/blog/2016/01/ridge-lasso-regression-python-complete-tutorial/)
+* kNN ----->  For more info about this method check *[kNN](https://realpython.com/knn-python/)
 
 In * you can find, in addition to the explanation of the method, a Python code as an example.
 
