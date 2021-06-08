@@ -40,7 +40,7 @@ def distribucion(data,ele):
 def distribucion_fitter(data):
     """
     Esta libreria funciona para determinar la distribucion de grupo de datos. Ajusta los datos a cada una de las distribuciones y realiza las prueba pertinentes. 
-    Sin embargo, hace uso de la librería scipy  para hacer las pruebas, por lo que realmente es una forma alterna a scipy sin usarla directamente. La única diferencia
+    Sin embargo, hace uso de la librería scipy para hacer las pruebas, por lo que realmente es una forma alterna a scipy sin usarla directamente. La única diferencia
     entre este y el anterior método recae en la eficiencia. 
     """
     distr=["norm", "exponweib", "weibull_max", "weibull_min", "pareto", "uniform","t","expon",
