@@ -10,7 +10,7 @@ warnings.filterwarnings('ignore')
 plt.rcParams['figure.dpi']="100"
 
 def corrgraf(data):
-    corr_matrix=data.select_dtypes(include=['float64','int']).corr(method='pearson')
+    corr_matrix=data.select_dtypes(include=['float64','int64']).corr(method='pearson')
     fig,ax=plt.subplots(nrows=1,ncols=1,figsize=(7,7)) 
     sns.heatmap(corr_matrix,annot=True,cbar=False,annot_kws={"size":6},
         vmin=-1,vmax=1,
@@ -63,10 +63,10 @@ def cualitativagraf(data):
         axes[i].set_xlabel("")
     fig.tight_layout()
     plt.subplots_adjust(top=0.9)
-    fig.suptitle('Distribución de variables cualitativas',fontsize = 10, fontweight = "bold");
+    fig.suptitle('Distribución de variables cualitativas',fontsize=10,fontweight="bold");
     
 def correlacionesgraf(data,columna):
-    total=len(data.select_dtypes(include=['float64','int']).columns)
+    total=len(data.select_dtypes(include=['float64','int64']).columns)
     if total%2==0:
         nrows=math.ceil(total/2)
     else:
@@ -74,7 +74,7 @@ def correlacionesgraf(data,columna):
         columnas=math.ceil(total-nrows)
     fig,axes=plt.subplots(nrows=nrows, ncols=nrows, figsize=(9, 5))
     axes=axes.flat
-    columnas_numeric=data.select_dtypes(include=['float64','int']).columns
+    columnas_numeric=data.select_dtypes(include=['float64','int64']).columns
     columnas_numeric=columnas_numeric.drop(columna) #eliminamos la columna de estudio
 
     for i,colum in enumerate(columnas_numeric):
