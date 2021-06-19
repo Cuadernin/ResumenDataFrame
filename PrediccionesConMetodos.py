@@ -11,7 +11,7 @@ import multiprocessing
 import numpy as np
 import pandas as pd
 import warnings
-#warnings.filterwarnings('ignore')
+warnings.filterwarnings('ignore')
 def ridge(df,valor,url,describe,test):
     """
     - El modelo consiste en la creación de un pipeline que contega Preprocesado + modelo.
