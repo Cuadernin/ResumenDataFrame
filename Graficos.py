@@ -9,6 +9,10 @@ import warnings
 warnings.filterwarnings('ignore')
 plt.rcParams['figure.dpi']="100"
 
+
+#### Graficos ###
+
+
 def corrgraf(data):
     corr_matrix=data.select_dtypes(include=['float64','int64']).corr(method='pearson')
     fig,ax=plt.subplots(nrows=1,ncols=1,figsize=(7,7)) 
