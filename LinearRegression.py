@@ -6,6 +6,8 @@ import warnings
 import numpy as np
 warnings.filterwarnings('ignore')
 
+## Regresion lineal usando la libreria statsmodels
+
 def regresion(df,col,nombre):
     lista=list(df.dtypes=="object")
     nombres=[df.columns[i] for i in range(len(lista)) if lista[i]==True] #lista de columnas con valores de tipo string
