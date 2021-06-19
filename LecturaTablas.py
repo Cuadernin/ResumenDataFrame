@@ -1,5 +1,5 @@
 from PyQt5.QtCore import QAbstractTableModel, Qt
-class lectura(QAbstractTableModel):
+class lectura(QAbstractTableModel): #clase que lee los datos y los coloca en visualizacion de tabla
     def __init__(self,data):
         QAbstractTableModel.__init__(self)
         self._data=data
