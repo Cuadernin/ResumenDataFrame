@@ -27,7 +27,7 @@ def distribucion(data,ele):
     distr=["norm", "exponweib", "weibull_max", "weibull_min", "pareto", "uniform","t","expon",
     "lognorm","beta","alpha","cauchy","f","loguniform","chi2","laplace","gamma"]
     resultados,parametros=[],{}
-    for dist_name in distr:
+    for dist_name in distr: #recorremos cada distribucion
         dist=getattr(st, dist_name) #extraemos los atributos de cada distribucion almacenados en la libreria scipy
         parametro=dist.fit(data) #ajustamos los datos
         parametros[dist_name]=parametro #igualamos los parametros de cada distribucion a la variable ----> parametro
