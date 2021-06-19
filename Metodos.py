@@ -15,7 +15,7 @@ import sys
 import warnings
 warnings.filterwarnings('ignore')
 
-if hasattr(QtCore.Qt, 'AA_EnableHighDpiScaling'):
+if hasattr(QtCore.Qt, 'AA_EnableHighDpiScaling'): #se adapta a cualquier resolución
     QApplication.setAttribute(QtCore.Qt.AA_EnableHighDpiScaling, True)
 if hasattr(QtCore.Qt, 'AA_UseHighDpiPixmaps'):
     QApplication.setAttribute(QtCore.Qt.AA_UseHighDpiPixmaps, True)
