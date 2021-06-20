@@ -39,7 +39,7 @@ class panda(QMainWindow):
         archivo=QFileDialog.getOpenFileName(self,'Abrir archivo','C:\\','CSV UTF-8 (delimitado por comas) (*.csv)')
         if archivo[0]!='':
             try:
-                self.df=pd.read_csv(archivo[0],encoding='latin-1')
+                self.df=pd.read_csv(archivo[0],encoding='latin1')
                 model=lectura(self.df)
                 self.ui.tbv_1.setModel(model)
                 self.ui.btn_graficar.setEnabled(True)
