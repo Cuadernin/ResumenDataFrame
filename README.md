@@ -1,4 +1,4 @@
-# GUI for dataframe resume
+# GUI for Data Analysis
 <img align="left" src="https://github.com/Cuadernin/ResumenDataFrame/blob/master/images/imagen1.jpg" height="540" width="760"> 
 <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 GUI designed in Python with PyQt5 that brings together different tools used in data analysis.
